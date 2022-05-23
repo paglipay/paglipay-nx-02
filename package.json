@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "start": "nx serve",
+    "start": "node dist/apps/api/main",
     "build": "nx build",
     "test": "nx test"
   },
@@ -14,7 +14,6 @@
     "react": "18.1.0",
     "react-dom": "18.1.0",
     "regenerator-runtime": "0.13.7",
-    "nx": "14.1.4",
     "tslib": "^2.3.0"
   },
   "devDependencies": {
