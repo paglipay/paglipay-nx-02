@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "projects": {
+    "api": "apps/api",
+    "api-interfaces": "libs/api-interfaces",
+    "react-express": "apps/react-express",
+    "react-express-e2e": "apps/react-express-e2e"
+  }
+}
