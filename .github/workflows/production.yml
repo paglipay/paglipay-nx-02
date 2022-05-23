@@ -26,5 +26,5 @@ jobs:
           heroku_app_name: 'paglipay-nx-02'
           heroku_email: 'paglipay@gmail.com'
 
-        # env:
-        #   HD_APP_BASE: "apps/react-express"
+        env:
+          HD_APP_BASE: "apps/api"
