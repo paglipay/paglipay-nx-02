@@ -21,10 +21,11 @@ jobs:
         uses: akhileshns/heroku-deploy@v3.12.12
 
         with:
-          args: deploy --dir=dist --prod
+          args: deploy --dir=build --prod
           heroku_api_key: ${{ secrets.HEROKU_API_KEY }}
           heroku_app_name: 'paglipay-nx-02'
           heroku_email: 'paglipay@gmail.com'
+          appdir: "apps/api"
 
-        env:
-          HD_APP_BASE: "apps/api"
+        # env:
+        #   HD_APP_BASE: "apps/api"
