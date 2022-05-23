@@ -25,7 +25,6 @@ jobs:
           heroku_api_key: ${{ secrets.HEROKU_API_KEY }}
           heroku_app_name: 'paglipay-nx-02'
           heroku_email: 'paglipay@gmail.com'
-          appdir: "apps/api"
 
         # env:
         #   HD_APP_BASE: "apps/api"
