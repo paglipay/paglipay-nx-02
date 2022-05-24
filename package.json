@@ -5,8 +5,8 @@
   "scripts": {
     "nx": "nx",
     "start": "node dist/apps/api/main.js",
-    "build": "yarn nx run-many --target=build --projects=react-express,api --parallel=true",
-    "dev": "yarn nx run-many --target=serve --projects=react-express,api --parallel=true",
+    "build": "npm nx run-many --target=build --projects=react-express,api --parallel=true",
+    "dev": "npm nx run-many --target=serve --projects=react-express,api --parallel=true",
     "test": "nx test",
     "lint": "nx workspace-lint && nx lint",
     "e2e": "nx e2e",
@@ -21,7 +21,7 @@
     "format": "nx format:write",
     "format:write": "nx format:write",
     "format:check": "nx format:check",
-    "update": "nx migrate latest && yarn && nx migrate --run-migrations=migrations.json && yarn format:write && yarn test",
+    "update": "nx migrate latest && npm && nx migrate --run-migrations=migrations.json && npm format:write && npm test",
     "workspace-generator": "nx workspace-generator",
     "dep-graph": "nx dep-graph",
     "help": "nx help"
